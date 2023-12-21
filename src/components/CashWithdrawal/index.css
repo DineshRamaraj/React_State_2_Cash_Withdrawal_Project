@@ -1,0 +1,75 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: #150b3e;
+  width: 40%;
+  padding: 30px;
+  border-radius: 10px;
+}
+.image-and-name {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.author-icon {
+  border-radius: 50%;
+  background-color: #c7d2fe;
+  width: 50px;
+  height: 50px;
+  font-family: 'Roboto';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.author-name {
+  font-family: 'Roboto';
+  color: #c4c4c4;
+  font-size: 16px;
+  margin-left: 20px;
+}
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.balance-title {
+  color: #585076;
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+.balance-amount {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  margin-bottom: 0px;
+}
+.balance-amount-rupees {
+  font-family: 'Roboto';
+  color: #585076;
+  font-size: 14px;
+  margin: 0;
+}
+
+.withdraw-title {
+  font-family: 'Roboto';
+  color: #c4c4c4;
+  font-size: 24px;
+  margin-bottom: 2px;
+}
+.withdraw-para {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
